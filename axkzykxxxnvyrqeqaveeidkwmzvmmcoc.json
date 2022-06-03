@@ -1,0 +1,30 @@
+{
+    "status": "OK",
+    "status_det": "OK",
+    "data": {
+        "status": "OK",
+        "auth": "ljwjfwdbvaodbrpzcznltximmmhipuvo",
+        "user": {
+            "user_guid": "u0B8k7l09aa517940ae3fbd1f5637408",
+            "first_name": "‌ᴀʀ|🌱𝙈𝘰𝘣𝘰𝘽𝘰𝘵",
+            "last_name": "",
+            "phone": "989038750631",
+            "username": "Mobo_bot",
+            "avatar_thumbnail": {
+                "file_id": "6241419779",
+                "mime": "jpg",
+                "dc_id": "818",
+                "access_hash_rec": "3205026438726965894817438664892022032023"
+            },
+            "last_online": 1653380610,
+            "bio": "",
+            "is_deleted": false,
+            "is_verified": false,
+            "online_time": {
+                "type": "Exact",
+                "exact_time": 1653380610
+            }
+        },
+        "timestamp": "1653380748"
+    }
+}
