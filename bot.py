@@ -28,7 +28,7 @@ import glob
 from PIL import Image
 from googletrans import Translator
  
-bot = Bot("AppName", auth="iksuphozhosuylowguopxuhntfvinccm")
+bot = Bot("AppName", auth="fucukqucpwvuhzzwwxcmvvxbmdlajqoe")
 
 target = "g0BWelu0b8fb490ec311c8992e309887"
 
