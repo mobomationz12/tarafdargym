@@ -843,9 +843,7 @@ message_id=msg.get("message_id"))
 							except:
 								print("err poker answer")
 										
-						elif msg.get("text") == "لینک" or msg.get("text") == "لینک گپ بدید" or msg.get("text") == "لینک گپ" or msg.get("text") == "لینک میخوام" or msg.get("text") == "لینک بدید" or
-msg.get("text") == "لینک پلیز" or:
-							try:
+						elif msg.get("text") == "لینک":
 								rules = open("link.txt","r",encoding='utf-8').read()
 								bot.sendMessage(target, str(rules), message_id=msg.get("message_id"))
 							except:
