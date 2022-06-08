@@ -33,7 +33,7 @@ channell = "c0zJzy0e2c6e5793fd68f54ec777cda4"
 
 chat = "#c=",""
 
-bot.sendMessage(target, "MoboBot Satarted Now✅😌")
+bot.sendMessage(target, "IranMation-Bot Satarted Now✅😌")
 
 
 def hasAds(msg):
