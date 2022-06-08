@@ -227,7 +227,7 @@ while True:
 
 						elif msg.get("text").startswith("عکس بفرست"):
 							try:
-								f = open('/storage/emulated/0/mytobot/now.png')
+								f = open('/storage/emulated/0/now.png')
 								p = Image.open('now.png')
 								bot.sendPhoto(target, 'now.png', p.size,message_id=msg["message_id"])
 							except:
@@ -843,7 +843,8 @@ message_id=msg.get("message_id"))
 							except:
 								print("err poker answer")
 										
-						elif msg.get("text") == "لینک":
+						elif msg.get("text") == "لینک" or msg.get("text") == "لینک گپ بدید" or msg.get("text") == "لینک گپ" or msg.get("text") == "لینک میخوام" or msg.get("text") == "لینک بدید" or
+msg.get("text") == "لینک پلیز" or:
 							try:
 								rules = open("link.txt","r",encoding='utf-8').read()
 								bot.sendMessage(target, str(rules), message_id=msg.get("message_id"))
