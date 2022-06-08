@@ -27,11 +27,11 @@ from PIL import Image
  
 bot = Bot("AppName", auth="tnuqjhohmjbzmmruqdcvdxefxztxcmui")
  
-target = "g0uia80bb4208009b4e5f79897f60387"
+target = "g0BWelu0b8fb490ec311c8992e309887"
 
 channell = "c0zJzy0e2c6e5793fd68f54ec777cda4"
 
-chat = "u"
+chat = "#c=",""
 
 bot.sendMessage(target, "MoboBot Satarted Now✅😌")
 
@@ -195,10 +195,6 @@ while True:
 								bot.sendMessage(target, "بابایی دارن صدات میکنن😁🙂", message_id=msg.get("message_id"))
 							except:
 								print("err bone")
-								
-						elif msg["text"] == "قفل گیف" or msg["text"] == "/gif_lock":
-								gif_lock = True
-								bot.sendMessage(target, "✅ قفل گیف و استیکر فعال شد .", msg["message_id"])
 
 						elif msg.get("text").startswith("زر نزن") or msg.get("text").startswith("زر"):
 							try:
@@ -227,7 +223,7 @@ while True:
 
 						elif msg.get("text").startswith("عکس بفرست"):
 							try:
-								f = open('/storage/emulated/0/now.png')
+								f = open('/storage/emulated/0/mytobot/now.png')
 								p = Image.open('now.png')
 								bot.sendPhoto(target, 'now.png', p.size,message_id=msg["message_id"])
 							except:
@@ -272,8 +268,6 @@ while True:
 									bot.sendMessage(target, "✅ کاربر مورد نظر با موفقیت به کانال افزوده شد", message_id=msg.get("message_id"))
 							except:
 								bot.sendMessage(target, "دستور رو اشتباه میزنی🚫😶", message_id=msg.get("message_id"))
-
-
 
 						elif msg.get("text").startswith("!add") or msg.get("text").startswith("عضو") :
 							try:
@@ -844,6 +838,7 @@ message_id=msg.get("message_id"))
 								print("err poker answer")
 										
 						elif msg.get("text") == "لینک":
+							try:
 								rules = open("link.txt","r",encoding='utf-8').read()
 								bot.sendMessage(target, str(rules), message_id=msg.get("message_id"))
 							except:
