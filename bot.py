@@ -1193,7 +1193,7 @@ message_id=msg.get("message_id"))
 							except:
 								bot.sendMessage(target, "متاسفانه تو ارسال مشکلی پیش اومد!", message_id=msg["message_id"])
 							
-						elif msg.get("text").startswith("دانستنی") or msg.get("text").startswith("!danestani"):
+						elif msg.get("text").startswith("دانستتتتنی") or msg.get("text").startswith("!daneتتتstani"):
 								try:
 									response = get("http://api.codebazan.ir/danestani/pic").content
 									with open("shot.jpg","wb") as shot: shot.write(response)
